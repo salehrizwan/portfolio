@@ -464,4 +464,43 @@ header {
 .submit-btn:hover {
   background-color: #ccc;
 }
+ 
+/* optional */
 
+@media (max-width: 768px) {
+
+  .huge-title {
+    font-size: 60px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .hero-image-container {
+    width: 200px;
+    height: 300px;
+  }
+
+  .intro-text-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .intro-text-row p {
+    text-align: center;
+  }
+
+  .project-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-text {
+    padding: 0 10px;
+  }
+}
